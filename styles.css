@@ -228,6 +228,10 @@ footer {
 	width: 320px;
 }
 
+.bord {
+	border: solid #7f5200 3.5px;
+}
+
 /*THIS IS FOR JOIN*/
 .mail-icon {
 	font-size: 100px;
