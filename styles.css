@@ -134,6 +134,11 @@ footer {
 .noneplz {
 	color: #000000;
 	font-size: 10px;
+}
+
+.diffnoneplz {
+	color: #000000;
+	font-size: 10px;
 	position: absolute; top: 95%;
 }
 
