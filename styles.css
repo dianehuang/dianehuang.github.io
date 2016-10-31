@@ -327,7 +327,7 @@ footer {
 }
 
 .boxerino {
-	width: 20%;
+	width: 25%;
 }
 
 .boxerino:hover {
@@ -345,16 +345,16 @@ footer {
 	width: 25%;
 }
 
-
-.royale-button {
-	font-size: 50px;
-	font-family: 'Roboto', sans-serif;
+.past {
+	font-size: 25px;
+	border: solid 1px #000000;
+	border-radius: 20px;
 	background-color: orange;
-	width: 100% !important;
-	border: none;
-	position: absolute; 
-	left: 40%;
-	top: 20%; 
+	font-color: black;
+}
+
+.past1 {
+	color: black;
 }
 /*Nocturne*/
 
@@ -695,7 +695,6 @@ footer {
 		margin-left: 50px;
 	}
 }
-
 
 
 .navbar {
