@@ -157,6 +157,7 @@ footer {
 	top: 17%;
 	left: 38%;
 	font-size: 60px;
+	z-index: 0;
 	color: #1a0d00;
 }
 
@@ -298,7 +299,6 @@ footer {
 
 .royale-pic {
 	width: 100%;
-	height: 700px;
 	margin-top: -20px;
 }
 
@@ -326,13 +326,13 @@ footer {
 	margin: 5px 5px 5px 5px;
 }
 
-.boxerino {
-	width: 25%;
-}
-
 .boxerino:hover {
 	border: solid 4px;
 	/*opacity: 0.7;*/
+}
+
+.boxerino {
+	width: 25%;
 }
 
 .positioning {
@@ -464,6 +464,11 @@ footer {
 
 .move-up {
 	margin-top: -20px;
+}
+
+.royale-fix {
+	width: 100%;
+	height: 100%;
 }
 
 .pics-button {
@@ -696,6 +701,33 @@ footer {
 	}
 }
 
+@media (max-width: 800px) {
+	.satelite {
+		position: relative;
+		top: 100%;
+		left: 0%;
+	}
+
+	.temp-img {
+		position: relative;
+		top: 150%;
+		left: 0%;
+	}
+}
+
+@media (max-width: 600px) {
+	.satelite {
+		position: relative;
+		top: 100%;
+		left: -25%;
+	}
+
+	.temp-img {
+		position: relative;
+		top: 150%;
+		left: -25%;
+	}
+}
 
 .navbar {
 	border: 0px;
